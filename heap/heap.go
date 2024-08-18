@@ -35,4 +35,5 @@ func main() {
 	fmt.Printf("minimum: %d\n", (*intHeap)[0])
 	for intHeap.Len() > 0 {
 		fmt.Printf("%d \n", heap.Pop(intHeap))
+	}
 }
